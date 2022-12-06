@@ -41,7 +41,7 @@ a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
  	.logoppal {
 		height: 70px;
 		border-radius: 5px;
@@ -100,7 +100,7 @@ p {
 	margin: 10px;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
 	.index-info {
 		display:grid;
 		grid-template-columns: 320px;
@@ -262,7 +262,6 @@ span {
 		width: 200px;
 	}
 }
-	
 /* cierre pagina cupcakes */
 
 /* pagina recetas */
