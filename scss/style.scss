@@ -5,6 +5,8 @@ $navbar-font-size: 20px;
 $subtitle-font-size: 30px;
 $p-font-size: 1.2em;
 $padding-titles: 10px;
+$image-height: 120px;
+$image-width: 120px; 
 
 @mixin displayindex {
 	display: inline-block;
@@ -133,8 +135,8 @@ p {
 }
 
 .img-tortas {
-	height: 120px;
-	width: 120px;
+	height: $image-height;
+	width: $image-width;
 	object-fit: cover;
 	align-self: center;
 	border-radius: 15%;
@@ -155,3 +157,30 @@ p {
 	align-self: center;
 }
 /* cierre tortas */
+
+/* inicio cupcakes */
+.cupcakes{
+	display:grid;
+	grid-template-columns: 120px 400px;
+	grid-column-gap: 10px;
+	margin: 20px 0px 10px 10px;
+}
+
+.img-cupcakes {
+	height: $image-height;
+	width: $image-width;
+	object-fit: cover;
+	border-radius: 15%;
+    transition-property: background, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+  .img-cupcakes:hover {
+    border-radius: 50%;
+}
+
+span {
+	align-self: center;
+}
+/* cierre cupcakes */
