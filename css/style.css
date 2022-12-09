@@ -158,3 +158,56 @@ p {
   width: 65%; }
 
 /* cierre recetas */
+/* inicio contacto */
+iframe {
+  margin: 20px 10px; }
+
+.detalle-form {
+  margin-left: 10px; }
+
+.formulario {
+  background-color: white;
+  display: block;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px; }
+
+.formulario:focus {
+  border: 3px solid rebeccapurple; }
+
+.formulario2 {
+  background-color: white;
+  display: block;
+  width: 40%;
+  height: 120px;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px; }
+
+.formulario2:focus {
+  border: 3px solid rebeccapurple; }
+
+.formulario3 {
+  font-size: 18px; }
+
+input[type=submit], input[type=reset] {
+  background-color: #937da9;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin: 4px 10px;
+  cursor: pointer; }
+
+.buttons {
+  display: flex;
+  width: 500px;
+  justify-content: end; }
+
+/* cierre contacto */
