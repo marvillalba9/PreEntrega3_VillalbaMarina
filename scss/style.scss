@@ -2,6 +2,9 @@ $font-family: barlow, sans-serif;
 $title-color: purple;
 $navbar-color: rebeccapurple;
 $navbar-font-size: 20px;
+$subtitle-font-size: 30px;
+$p-font-size: 1.2em;
+$padding-titles: 10px;
 
 * {
 	font-family: $font-family;
@@ -13,3 +16,81 @@ body {
 	position: relative;
 	padding:0;
 }
+
+/* inicio navbar y logo */
+.header-container {
+	display: grid;
+	padding: 20px 10px;
+	grid-template-rows: 100px;
+	grid-template-columns: 150px 150px 150px 150px 150px 150px;
+}
+
+ .logoppal {
+	height: 80px;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.header-nav {
+    margin:20px;
+    padding: 0px;
+    justify-self: center;
+    align-self: center;
+}
+
+a {
+text-decoration: none;
+color: $navbar-color;
+font-size: $navbar-font-size;
+font-weight: 800;
+}
+
+a:hover {
+text-decoration: underline;
+}
+/* cierre navbar y logo */
+
+/* inicio titulos y parrafo */
+.titulo_h1 {
+	display:flex;
+	font-size:55px;
+	padding: $padding-titles;
+	margin:0;
+	color: $title-color;
+}
+
+.titulo_h2 {
+	display:flex;
+	color: $title-color;
+	align-items: center;
+}
+
+.subtitulo {
+	text-align: left;
+	font-size: $subtitle-font-size;
+	padding: $padding-titles;
+	margin:10px 0px 0px 0px;
+}
+
+p {
+	width: 750px;
+	text-align:left;
+	font-size: $p-font-size;
+	padding: $padding-titles;
+	margin: 0px;
+}
+/* cierre titulos y parrafo */
+
+/* inicio footer */
+.footer {
+	width: 100%;
+	margin-top: 20px;
+	background-color: white;
+	opacity: 60%;
+	padding: 7px;
+	a {
+	margin: 0px 5x;
+	line-height: 25px;
+	}
+}
+/* cierre footer*/
