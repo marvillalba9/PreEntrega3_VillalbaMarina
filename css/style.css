@@ -1,1 +1,76 @@
+* {
+  font-family: barlow, sans-serif; }
 
+body {
+  background: #fff0f5 url(https://t4.ftcdn.net/jpg/02/22/17/97/360_F_222179720_h4HaoaN4ZSASTZ63GEZFLTzVnj9aElCl.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  padding: 0; }
+
+/* inicio navbar y logo */
+.header-container {
+  display: grid;
+  padding: 20px 10px;
+  grid-template-rows: 100px;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px; }
+
+.logoppal {
+  height: 80px;
+  border-radius: 5px;
+  box-sizing: border-box; }
+
+.header-nav {
+  margin: 20px;
+  padding: 0px;
+  justify-self: center;
+  align-self: center; }
+
+a {
+  text-decoration: none;
+  color: rebeccapurple;
+  font-size: 20px;
+  font-weight: 800; }
+
+a:hover {
+  text-decoration: underline; }
+
+/* cierre navbar y logo */
+/* inicio titulos y parrafo */
+.titulo_h1 {
+  display: flex;
+  font-size: 55px;
+  padding: 10px;
+  margin: 0;
+  color: purple; }
+
+.titulo_h2 {
+  display: flex;
+  color: purple;
+  align-items: center; }
+
+.subtitulo {
+  text-align: left;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px 0px 0px 0px; }
+
+p {
+  width: 750px;
+  text-align: left;
+  font-size: 1.2em;
+  padding: 10px;
+  margin: 0px; }
+
+/* cierre titulos y parrafo */
+/* inicio footer */
+.footer {
+  width: 100%;
+  margin-top: 20px;
+  background-color: white;
+  opacity: 60%;
+  padding: 7px; }
+  .footer a {
+    margin: 0px 5x;
+    line-height: 25px; }
+
+/* cierre footer*/
