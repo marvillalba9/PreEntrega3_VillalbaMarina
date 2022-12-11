@@ -37,9 +37,15 @@ a:hover {
   text-decoration: underline; }
 
 @media screen and (max-width: 768px) {
-  .nav-mobile {
+  .logoppal {
     height: 70px;
-    width: 70px; } }
+    border-radius: 5px;
+    box-sizing: border-box; }
+  .header-nav a .nav-mobile {
+    height: 70px;
+    width: 70px; }
+  .header-nav a .nav-desktop {
+    display: none; } }
 
 /* cierre navbar y logo */
 /* inicio titulos y parrafo */
