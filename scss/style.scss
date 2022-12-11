@@ -80,8 +80,8 @@ body {
 	justify-content: left;
 
 	@media screen and (max-width: 768px) {
-		display: grid;
-		grid-template-rows: 60px 60px;
+		display: flex;
+		flex-direction: column;
 		align-content: center;
 		justify-content: center;
 	}
@@ -107,7 +107,6 @@ body {
 	align-items: center;
 	
 	@media screen and (max-width: 768px) {
-		display: none;
 		padding: 5px;
 		justify-items: center;
 		margin:0px;
