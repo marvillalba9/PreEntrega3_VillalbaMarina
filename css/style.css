@@ -37,8 +37,9 @@ a:hover {
   text-decoration: underline; }
 
 @media screen and (max-width: 768px) {
-  .nav-desktop {
-    display: none; } }
+  .nav-mobile {
+    height: 70px;
+    width: 70px; } }
 
 /* cierre navbar y logo */
 /* inicio titulos y parrafo */

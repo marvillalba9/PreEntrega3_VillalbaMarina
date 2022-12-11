@@ -63,8 +63,9 @@ text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
-	.nav-desktop {
-		display:none;
+	.nav-mobile {
+		height: 70px;
+		width: 70px;
 	}
 }
 
