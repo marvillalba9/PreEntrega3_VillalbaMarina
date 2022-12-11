@@ -86,12 +86,21 @@ body {
 	padding: $padding-titles;
 	margin:0;
 	color: $title-color;
+	@media screen and (max-width: 768px) {
+		font-size: 45px;
+		padding: 5px;
+		justify-items: center;
+	}
 }
 
 .titulo_h2 {
 	display:flex;
 	color: $title-color;
 	align-items: center;
+	@media screen and (max-width: 768px) {
+		padding: 5px;
+		justify-items: center;
+	}
 }
 
 .subtitulo {

@@ -55,11 +55,20 @@ body {
   padding: 10px;
   margin: 0;
   color: purple; }
+  @media screen and (max-width: 768px) {
+    .titulo_h1 {
+      font-size: 45px;
+      padding: 5px;
+      justify-items: center; } }
 
 .titulo_h2 {
   display: flex;
   color: purple;
   align-items: center; }
+  @media screen and (max-width: 768px) {
+    .titulo_h2 {
+      padding: 5px;
+      justify-items: center; } }
 
 .subtitulo {
   text-align: left;
