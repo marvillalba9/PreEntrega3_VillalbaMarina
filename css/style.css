@@ -257,11 +257,8 @@ p {
 @media screen and (max-width: 768px) {
   .recetas .links_recetas {
     display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: repeat 5, 200px;
-    grid-row-gap: 5px;
     padding: 15px;
-    width: 100%; } }
+    width: 90%; } }
 
 /* cierre recetas */
 /* inicio contacto */
