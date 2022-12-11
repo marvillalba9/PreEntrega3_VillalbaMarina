@@ -70,9 +70,9 @@ text-decoration: underline;
 	}
 
 	.header-container {
-		display: grid;
+		display: flex;
 		padding: 10px 5px;
-		grid-template-columns: 120px 40px 40px 40px 40px 40px;
+		flex-wrap: wrap;
 		a {
 			display:none;
 		}
