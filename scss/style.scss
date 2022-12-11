@@ -33,9 +33,10 @@ body {
 	padding: 20px 10px;
 	grid-template-rows: 100px;
 	grid-template-columns: 150px 150px 150px 150px 150px 150px;
-	.header-responsive, .logo-responsive {
-		display:none;
-	}
+}
+
+.header-responsive {
+	display:none;
 }
 
  .logoppal {
@@ -64,17 +65,21 @@ text-decoration: underline;
 
 @media screen and (max-width:768px) {
 	.header-container {
+		display:none;
+	}
+
+	.header-reponsive {
 		display: flex;
 		height: 70px;
 		padding: 10px 5px;
 		flex-wrap: wrap;
-		.header-nav {
-			display:none;
-		}
 		.logo-responsive {
 			height: 70px;
 			border-radius: 5px;
 			box-sizing: border-box;
+		}
+		.nav-responsive {
+			color:white;
 		}
 	}
 

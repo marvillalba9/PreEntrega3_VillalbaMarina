@@ -13,8 +13,9 @@ body {
   padding: 20px 10px;
   grid-template-rows: 100px;
   grid-template-columns: 150px 150px 150px 150px 150px 150px; }
-  .header-container .header-responsive, .header-container .logo-responsive {
-    display: none; }
+
+.header-responsive {
+  display: none; }
 
 .logoppal {
   height: 80px;
@@ -38,16 +39,18 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   .header-container {
+    display: none; }
+  .header-reponsive {
     display: flex;
     height: 70px;
     padding: 10px 5px;
     flex-wrap: wrap; }
-    .header-container .header-nav {
-      display: none; }
-    .header-container .logo-responsive {
+    .header-reponsive .logo-responsive {
       height: 70px;
       border-radius: 5px;
-      box-sizing: border-box; } }
+      box-sizing: border-box; }
+    .header-reponsive .nav-responsive {
+      color: white; } }
 
 /* cierre navbar y logo */
 /* inicio titulos y parrafo */
