@@ -16,6 +16,13 @@ $image-width: 120px;
 	margin: 10px;
 }
 
+@mixin displaytitulos {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+}
+
 * {
 	font-family: $font-family;
 }
@@ -94,11 +101,8 @@ body {
 	color: $title-color;
 	
 	@media screen and (max-width: 768px) {
-		display: inline-block;
+		@include displaytitulos;
 		font-size: 40px;
-		padding: 5px;
-		width: 100%;
-		text-align: center;
 	}
 }
 
@@ -108,11 +112,8 @@ body {
 	align-items: center;
 
 	@media screen and (max-width: 768px) {
-		display: inline-block;
-		width: 100%;
+		@include displaytitulos;
 		font-size: 30px;
-		padding: 5px;
-		text-align: center;
 		margin: 0px;
 	}
 }
@@ -130,6 +131,10 @@ p {
 	font-size: $p-font-size;
 	padding: $padding-titles;
 	margin: 0px;
+
+	@media screen and (max-width: 768px) {
+		@include displaytitulos;
+	}
 }
 /* cierre titulos y parrafo */
 

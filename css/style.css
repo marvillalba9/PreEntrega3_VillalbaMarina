@@ -63,10 +63,10 @@ body {
   @media screen and (max-width: 768px) {
     .titulo_h1 {
       display: inline-block;
-      font-size: 40px;
-      padding: 5px;
       width: 100%;
-      text-align: center; } }
+      text-align: center;
+      padding: 5px;
+      font-size: 40px; } }
 
 .titulo_h2 {
   display: flex;
@@ -76,9 +76,9 @@ body {
     .titulo_h2 {
       display: inline-block;
       width: 100%;
-      font-size: 30px;
-      padding: 5px;
       text-align: center;
+      padding: 5px;
+      font-size: 30px;
       margin: 0px; } }
 
 .subtitulo {
@@ -93,6 +93,12 @@ p {
   font-size: 1.2em;
   padding: 10px;
   margin: 0px; }
+  @media screen and (max-width: 768px) {
+    p {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      padding: 5px; } }
 
 /* cierre titulos y parrafo */
 /* inicio footer */
