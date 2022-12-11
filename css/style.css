@@ -223,8 +223,10 @@ p {
 @media screen and (max-width: 768px) {
   .cupcakes {
     display: grid;
-    grid-template-columns: 80%;
-    margin: 20px 0px 10px 10px; }
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 150px;
+    grid-column-gap: 6px;
+    align-self: center; }
     .cupcakes span {
       width: 100%;
       align-self: center;
