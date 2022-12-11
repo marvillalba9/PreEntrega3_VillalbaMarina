@@ -255,8 +255,7 @@ p {
   width: 65%; }
 
 @media screen and (max-width: 768px) {
-  .recetas .links_recetas {
-    display: grid;
+  .recetas {
     padding: 15px;
     width: 90%; } }
 
