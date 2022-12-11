@@ -21,6 +21,9 @@ body {
     padding: 0px;
     justify-self: center;
     align-self: center; }
+    .container-fluid .nav-item .nav-link {
+      color: rebeccapurple;
+      font-size: large; }
   .container-fluid .navbar-brand .logoppal {
     height: 80px;
     border-radius: 5px;

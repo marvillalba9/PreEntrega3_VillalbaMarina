@@ -54,6 +54,10 @@ body {
     	padding: 0px;
     	justify-self: center;
     	align-self: center;
+		.nav-link {
+			color: $primary-color;
+			font-size: large;
+		}
 	}
 	.navbar-brand {
 		.logoppal {
