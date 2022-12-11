@@ -81,8 +81,7 @@ body {
 
 	@media screen and (max-width: 768px) {
 		display: flex;
-		align-content: center;
-		justify-content: center;
+		flex-direction: column;
 	}
 }
 
@@ -109,6 +108,7 @@ body {
 		font-size: 35px;
 		padding: 5px;
 		justify-items: center;
+		margin: 0px;
 	}
 }
 

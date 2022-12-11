@@ -51,8 +51,7 @@ body {
   @media screen and (max-width: 768px) {
     .titulos {
       display: flex;
-      align-content: center;
-      justify-content: center; } }
+      flex-direction: column; } }
 
 .titulo_h1 {
   display: flex;
@@ -74,7 +73,8 @@ body {
     .titulo_h2 {
       font-size: 35px;
       padding: 5px;
-      justify-items: center; } }
+      justify-items: center;
+      margin: 0px; } }
 
 .subtitulo {
   text-align: left;
