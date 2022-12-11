@@ -39,6 +39,10 @@ body {
 	height: 80px;
 	border-radius: 5px;
 	box-sizing: border-box;
+
+	@media screen (max-width:768px) {
+		height: 70px;
+	}
 }
 
 .header-nav {
@@ -60,28 +64,6 @@ font-weight: 800;
 
 a:hover {
 text-decoration: underline;
-}
-
-@media screen and (min-width: 768px) {
-
-	.logoppal {
-		height: 70px;
-		border-radius: 5px;
-		box-sizing: border-box;
-	}
- 
-	.header-nav {
-		a {
-			.nav-mobile {
-				height: 70px;
-				width: 70px;
-			}
-			.nav-desktop {
-				display:none;
-			}
-		}
-
-	}
 }
 
 /* cierre navbar y logo */
