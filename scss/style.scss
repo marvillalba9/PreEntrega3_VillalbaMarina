@@ -57,6 +57,9 @@ text-decoration: none;
 color: $primary-color;
 font-size: $navbar-font-size;
 font-weight: 800;
+	i {
+		display:none;
+	}
 }
 
 a:hover {
