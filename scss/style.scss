@@ -199,7 +199,7 @@ p {
 	
 		span {
 			align-self: center;
-			font-size: 13px;
+			font-size: 14px;
 		}
 
 		.img-tortas {
@@ -218,6 +218,44 @@ p {
 		}
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.tortas {
+		display:grid;
+		margin: 40px 0px 0px 20px;
+		grid-template-columns: 80%;
+		grid-template-rows: repeat (8, 200px);
+		grid-row-gap: 5px;
+			.info-tortas {
+			display: grid;
+			grid-template-columns: 120px 260px;
+			grid-template-rows: 150px;
+			grid-column-gap: 6px;
+			align-self: center;
+		
+			span {
+				align-self: center;
+				font-size: 14px;
+			}
+	
+			.img-tortas {
+				height: $image-height;
+				width: $image-width;
+				object-fit: cover;
+				align-self: center;
+				border-radius: 15%;
+				transition-property: background, border-radius;
+				transition-duration: 1s;
+				transition-timing-function: linear;
+			}
+			
+			.img-tortas:hover {
+			   border-radius: 50%;
+			}
+		}
+	}
+}
+
 /* cierre tortas */
 
 /* inicio cupcakes */
