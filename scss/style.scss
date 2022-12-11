@@ -79,6 +79,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+	.header-container {
+		width: 100%;
+	}
+	
 	.logoppal {
 		display: flex;
 		justify-content: center;
