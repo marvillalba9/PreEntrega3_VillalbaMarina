@@ -153,29 +153,21 @@ p {
 /* cierre footer*/
 
 /* inicio index */
-.images-desktop {
-	.imgindex {
-		@include displayindex;
-		object-fit: cover;
-		transition: width 2s, height 2s;
-	}
-	.imgindex:hover {
-		width: 275px;
-		height: 275px;
-	}
-}
-
-.infoindex {
-	@media screen and (max-width: 768px) {
-		@include displaytitulos;
-		justify-content: center;
-		align-content: center;
-	}
-}
 
 @media screen and (min-width: 769px) {
-	.carousel-item {
+	#carouselExampleIndicators {
 		display:none;
+	}
+	.images-desktop {
+		.imgindex {
+			@include displayindex;
+			object-fit: cover;
+			transition: width 2s, height 2s;
+		}
+		.imgindex:hover {
+			width: 275px;
+			height: 275px;
+		}
 	}
 }
 
@@ -183,11 +175,12 @@ p {
 	.images-desktop {
 		display: none;
 	}
+	.infoindex {
+		@include displaytitulos;
+		justify-content: center;
+		align-content: center;
+	}
 
-}
-
-.d-block w-100 {
-	@include displayindex;
 }
 /* cierre index */
 

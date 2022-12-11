@@ -111,20 +111,24 @@ p {
 
 /* cierre footer*/
 /* inicio index */
-.images-desktop .imgindex {
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  padding: 10px;
-  margin: 10px;
-  object-fit: cover;
-  transition: width 2s, height 2s; }
-
-.images-desktop .imgindex:hover {
-  width: 275px;
-  height: 275px; }
+@media screen and (min-width: 769px) {
+  #carouselExampleIndicators {
+    display: none; }
+  .images-desktop .imgindex {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    object-fit: cover;
+    transition: width 2s, height 2s; }
+  .images-desktop .imgindex:hover {
+    width: 275px;
+    height: 275px; } }
 
 @media screen and (max-width: 768px) {
+  .images-desktop {
+    display: none; }
   .infoindex {
     display: inline-block;
     width: 100%;
@@ -132,21 +136,6 @@ p {
     padding: 5px;
     justify-content: center;
     align-content: center; } }
-
-@media screen and (min-width: 769px) {
-  .carousel-item {
-    display: none; } }
-
-@media screen and (max-width: 768px) {
-  .images-desktop {
-    display: none; } }
-
-.d-block w-100 {
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  padding: 10px;
-  margin: 10px; }
 
 /* cierre index */
 /* inicio tortas */
