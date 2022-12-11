@@ -368,5 +368,22 @@ iframe {
 	font-weight: 300;
 }
 
+input[type=submit], input[type=reset] {
+	background-color: rgb(147, 125, 169);
+	border: none;
+	border-radius: 4px;
+	color: white;
+	padding: 10px 10px;
+	text-decoration: none;
+	margin: 4px 10px;
+	cursor: pointer;
+  }
+
+.buttons{
+	display:flex;
+	width: 500px;
+	justify-content: end;
+}
+
 /* cierre contacto */
 
