@@ -38,7 +38,7 @@ $form-color: white;
 @mixin contactform {
 	display:block;
 	width: 40%;
-	padding: 12px 20px;
+	padding: 6px 10px;
 	margin: 8px 10px;
 	box-sizing: border-box;
 	border:none;
@@ -377,7 +377,7 @@ iframe {
 }
 
 .input:focus {
-	border: 3px, solid, $primary-color;
+	border: 3px, solid, $primary-color !important;
 }
 
 .buttons{
