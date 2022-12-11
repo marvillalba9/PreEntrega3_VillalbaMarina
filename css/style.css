@@ -112,6 +112,9 @@ p {
   .footer a {
     margin: 0px 5x;
     line-height: 25px; }
+  @media screen and (max-width: 768px) {
+    .footer {
+      width: 100%; } }
 
 /* cierre footer*/
 /* inicio index */
