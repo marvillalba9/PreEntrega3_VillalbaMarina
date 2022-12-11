@@ -13,49 +13,63 @@ body {
       background-image: none; } }
 
 /* cierre body */
-/* inicio navbar y logo */
+/* inicio navbar y logo
 .header-container {
-  display: grid;
-  padding: 20px 10px;
-  grid-template-rows: 100px;
-  grid-template-columns: 150px 150px 150px 150px 150px 150px; }
-  .header-container .header-nav {
-    margin: 20px;
-    padding: 0px;
-    justify-self: center;
-    align-self: center; }
-    .header-container .header-nav .nav-mobile {
-      display: none; }
-    .header-container .header-nav .logoppal {
-      height: 80px;
-      border-radius: 5px;
-      box-sizing: border-box; }
-    .header-container .header-nav a {
-      text-decoration: none;
-      color: rebeccapurple;
-      font-size: 20px;
-      font-weight: 800; }
-    .header-container .header-nav a:hover {
-      text-decoration: underline; }
+	display: grid;
+	padding: 20px 10px;
+	grid-template-rows: 100px;
+	grid-template-columns: 150px 150px 150px 150px 150px 150px;
+	.header-nav {
+    	margin:20px;
+    	padding: 0px;
+    	justify-self: center;
+    	align-self: center;
+		.nav-mobile {
+			display:none;
+		}
+		.logoppal {
+			height: 80px;
+			border-radius: 5px;
+			box-sizing: border-box;
+		}
+		a {
+			text-decoration: none;
+			color: $primary-color;
+			font-size: $navbar-font-size;
+			font-weight: 800;
+			}
+			
+			a:hover {
+			text-decoration: underline;
+			}
+	}
+}
 
 @media screen and (max-width: 768px) {
-  .header-container {
-    width: 100%; }
-  .logoppal {
-    display: flex;
-    justify-content: center; }
-  .header-nav {
-    margin: 20px;
-    padding: 0px;
-    justify-self: center;
-    align-self: center; }
-    .header-nav .nav-desktop {
-      display: none; }
-    .header-nav .nav-mobile {
-      display: block;
-      height: 70px; } }
+	.header-container {
+		width: 100%;
+	}
+	
+	.logoppal {
+		display: flex;
+		justify-content: center;
+	}
 
-/* cierre navbar y logo */
+	.header-nav {
+		margin:20px;
+    	padding: 0px;
+    	justify-self: center;
+    	align-self: center;
+		.nav-desktop {
+			display: none;
+		}
+		.nav-mobile {
+			display: block;
+			height: 70px;
+		}
+	}
+}
+cierre navbar y logo */
 /* inicio titulos y parrafo */
 .titulos {
   display: flex;
