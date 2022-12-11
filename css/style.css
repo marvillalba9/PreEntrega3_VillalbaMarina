@@ -13,10 +13,8 @@ body {
   padding: 20px 10px;
   grid-template-rows: 100px;
   grid-template-columns: 150px 150px 150px 150px 150px 150px; }
-  .header-container .header-responsive {
+  .header-container .header-responsive, .header-container .logo-responsive {
     display: none; }
-    .header-container .header-responsive .logo-responsive {
-      display: none; }
 
 .logoppal {
   height: 80px;
