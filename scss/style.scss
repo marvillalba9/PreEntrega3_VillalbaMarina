@@ -16,8 +16,6 @@ $image-width: 120px;
 	margin: 10px;
 }
 
-@import "responsive";
-
 * {
 	font-family: $font-family;
 }
@@ -267,3 +265,6 @@ input[type=submit], input[type=reset] {
 	justify-content: end;
 }
 /* cierre contacto */
+
+/* responsive */
+@import "responsive";
