@@ -105,6 +105,12 @@ body {
 	display:flex;
 	color: $title-color;
 	align-items: center;
+
+	@media screen and (max-width: 768px) {
+		font-size: 35px;
+		padding: 5px;
+		justify-items: center;
+	}
 }
 
 .subtitulo {

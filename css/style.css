@@ -71,6 +71,11 @@ body {
   display: flex;
   color: purple;
   align-items: center; }
+  @media screen and (max-width: 768px) {
+    .titulo_h2 {
+      font-size: 35px;
+      padding: 5px;
+      justify-items: center; } }
 
 .subtitulo {
   text-align: left;
