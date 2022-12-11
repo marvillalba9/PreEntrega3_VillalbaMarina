@@ -14,9 +14,6 @@ body {
   grid-template-rows: 100px;
   grid-template-columns: 160px 160px 160px 160px 160px 160px; }
 
-.header-responsive {
-  display: none; }
-
 .logoppal {
   height: 80px;
   border-radius: 5px;
@@ -27,14 +24,14 @@ body {
   padding: 0px;
   justify-self: center;
   align-self: center; }
+  .header-nav .nav-mobile {
+    display: none; }
 
 a {
   text-decoration: none;
   color: rebeccapurple;
   font-size: 20px;
   font-weight: 800; }
-  a i {
-    padding: 0px 2px; }
 
 a:hover {
   text-decoration: underline; }

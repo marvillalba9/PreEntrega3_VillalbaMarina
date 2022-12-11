@@ -35,10 +35,6 @@ body {
 	grid-template-columns: 160px 160px 160px 160px 160px 160px;
 }
 
-.header-responsive {
-	display:none;
-}
-
  .logoppal {
 	height: 80px;
 	border-radius: 5px;
@@ -50,6 +46,9 @@ body {
     padding: 0px;
     justify-self: center;
     align-self: center;
+	.nav-mobile {
+		display:none;
+	}
 }
 
 a {
@@ -57,9 +56,6 @@ text-decoration: none;
 color: $primary-color;
 font-size: $navbar-font-size;
 font-weight: 800;
-	i {
-		padding: 0px 2px;
-	}
 }
 
 a:hover {
