@@ -33,7 +33,7 @@ body {
 	padding: 20px 10px;
 	grid-template-rows: 100px;
 	grid-template-columns: 150px 150px 150px 150px 150px 150px;
-	i {
+	.header-responsive {
 		display:none;
 	}
 }
@@ -73,10 +73,10 @@ text-decoration: underline;
 		display: flex;
 		padding: 10px 5px;
 		flex-wrap: wrap;
-		a {
+		.header-nav {
 			display:none;
 		}
-		i {
+		.header-responsive {
 			color:white;
 			width: 40px;
 		}

@@ -13,7 +13,7 @@ body {
   padding: 20px 10px;
   grid-template-rows: 100px;
   grid-template-columns: 150px 150px 150px 150px 150px 150px; }
-  .header-container i {
+  .header-container .header-responsive {
     display: none; }
 
 .logoppal {
@@ -45,9 +45,9 @@ a:hover {
     display: flex;
     padding: 10px 5px;
     flex-wrap: wrap; }
-    .header-container a {
+    .header-container .header-nav {
       display: none; }
-    .header-container i {
+    .header-container .header-responsive {
       color: white;
       width: 40px; } }
 
