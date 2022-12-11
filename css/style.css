@@ -133,8 +133,12 @@ p {
     justify-content: center;
     align-content: center; } }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .carousel slide {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  .images-desktop {
     display: none; } }
 
 .d-block w-100 {
