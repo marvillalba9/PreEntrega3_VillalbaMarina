@@ -359,8 +359,13 @@ iframe {
 }
 
 #formInput {
-	margin-left: 10px !important;
-	width: 65% !important;
+	margin-left: 10px;
+	width: 60%;
+}
+
+.form-label {
+	margin-left: 10px;
+	font-weight: 300;
 }
 
 /* cierre contacto */
