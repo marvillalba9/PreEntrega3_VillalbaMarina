@@ -117,6 +117,12 @@ body {
 	font-size: $subtitle-font-size;
 	padding: $padding-titles;
 	margin:10px 0px 0px 0px;
+
+	@media screen and (max-width: 768px) {
+		text-align: center;
+		margin-top: 30px;
+	}
+		
 }
 
 p {
