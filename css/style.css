@@ -14,21 +14,23 @@ body {
 
 /* cierre body */
 /* inicio navbar y logo */
-.container-fluid {
-  background-color: transparent; }
-  .container-fluid .nav-item {
-    margin: 20px;
-    padding: 0px;
-    justify-self: center;
-    align-self: center; }
-    .container-fluid .nav-item .nav-link {
-      color: rebeccapurple;
-      font-size: 18px;
-      font-weight: 900; }
-  .container-fluid .navbar-brand .logoppal {
-    height: 80px;
-    border-radius: 5px;
-    box-sizing: border-box; }
+.container-fluid .nav-item {
+  margin: 20px;
+  padding: 0px;
+  justify-self: center;
+  align-self: center; }
+  .container-fluid .nav-item .nav-link {
+    color: rebeccapurple;
+    font-size: 18px;
+    font-weight: 900; }
+
+.container-fluid .navbar-brand .logoppal {
+  height: 80px;
+  border-radius: 5px;
+  box-sizing: border-box; }
+
+.container-fluid .navbar-toggler {
+  color: rebeccapurple; }
 
 /* cierre navbar y logo */
 /* inicio titulos y parrafo */

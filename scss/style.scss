@@ -48,7 +48,6 @@ body {
 
 /* inicio navbar y logo */
 .container-fluid {
-	background-color: transparent;
 	.nav-item {
     	margin:20px;
     	padding: 0px;
@@ -67,8 +66,10 @@ body {
 			box-sizing: border-box;
 		}
 	}
+	.navbar-toggler {
+		color: $primary-color;
+	}
 }
-
 /* cierre navbar y logo */
 
 /* inicio titulos y parrafo */
