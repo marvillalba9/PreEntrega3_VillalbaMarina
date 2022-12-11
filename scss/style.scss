@@ -228,12 +228,13 @@ p {
 		grid-row-gap: 5px;
 			.info-tortas {
 			display: grid;
-			grid-template-columns: 120px 260px;
+			grid-template-columns: 1fr 1fr;
 			grid-template-rows: 150px;
 			grid-column-gap: 6px;
 			align-self: center;
 		
 			span {
+				width: 100%;
 				align-self: center;
 				font-size: 14px;
 			}
