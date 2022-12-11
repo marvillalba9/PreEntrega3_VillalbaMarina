@@ -72,6 +72,8 @@ body {
   align-items: center; }
   @media screen and (max-width: 768px) {
     .titulo_h2 {
+      display: inline-block;
+      width: 100%;
       font-size: 30px;
       padding: 5px;
       text-align: center;
