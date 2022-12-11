@@ -46,10 +46,7 @@ a:hover {
     padding: 10px 5px;
     flex-wrap: wrap; }
     .header-container .header-nav {
-      display: none; }
-    .header-container .header-responsive {
-      color: white;
-      width: 40px; } }
+      display: none; } }
 
 /* cierre navbar y logo */
 /* inicio titulos y parrafo */
