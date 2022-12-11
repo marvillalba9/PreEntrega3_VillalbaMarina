@@ -328,19 +328,10 @@ p {
 .recetas {
 	display:grid;
 	grid-template-columns: 700px;
-	grid-template-rows: 320px 320px 320px 320px 320px;
-	grid-row-gap: 5px;
-	.videos {
-		.links-recetas {
-		margin: 0px;
-		padding: 0px;
-		}
-	}
-}
-
-.iframe {
-	width: 560px;
-	height: 315px;
+	grid-template-rows: repeat (5, 350px);
+	grid-row-gap: 10px;
+	padding: 15px;
+	width: 65%;
 }
 
 @media screen and (max-width: 768px) {
