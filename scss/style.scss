@@ -83,6 +83,7 @@ body {
 		display:grid;
 		padding: 5px;
 		grid-template-columns: 70px 70px 70px 70px 70px 70px 70px;
+		grid-template-rows: 80px 80px;
 		.grid-item:first-child {
 			grid-column: 1/8;
 		}
