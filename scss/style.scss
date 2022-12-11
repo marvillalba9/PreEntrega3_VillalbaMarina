@@ -79,14 +79,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-	.header-container {
-		display:grid;
-		padding: 5px;
-		grid-template-columns: 70px 70px 70px 70px 70px 70px 70px;
-		grid-template-rows: 80px 80px;
-		.grid-item:first-child {
-			grid-column: 1/8;
-		}
+	.logoppal {
+		display: flex;
+		justify-content: center;
 	}
 }
 /* cierre navbar y logo */
