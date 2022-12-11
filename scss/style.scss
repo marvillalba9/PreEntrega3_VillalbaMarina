@@ -78,6 +78,13 @@ body {
 	display:flex;
 	margin:auto;
 	justify-content: left;
+
+	@media screen and (max-width: 768px) {
+		display: grid;
+		grid-template-rows: 60px 60px;
+		align-content: center;
+		justify-content: center;
+	}
 }
 
 .titulo_h1 {
@@ -86,6 +93,7 @@ body {
 	padding: $padding-titles;
 	margin:0;
 	color: $title-color;
+	
 	@media screen and (max-width: 768px) {
 		font-size: 45px;
 		padding: 5px;
@@ -97,6 +105,7 @@ body {
 	display:flex;
 	color: $title-color;
 	align-items: center;
+	
 	@media screen and (max-width: 768px) {
 		padding: 5px;
 		justify-items: center;

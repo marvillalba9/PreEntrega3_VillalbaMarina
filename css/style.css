@@ -48,6 +48,12 @@ body {
   display: flex;
   margin: auto;
   justify-content: left; }
+  @media screen and (max-width: 768px) {
+    .titulos {
+      display: grid;
+      grid-template-rows: 60px 60px;
+      align-content: center;
+      justify-content: center; } }
 
 .titulo_h1 {
   display: flex;
