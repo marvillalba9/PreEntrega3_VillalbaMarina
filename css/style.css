@@ -39,18 +39,7 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   .header-container {
-    display: none; }
-  .header-reponsive {
-    display: flex;
-    height: 70px;
-    padding: 10px 5px;
-    flex-wrap: wrap; }
-    .header-reponsive .logo-responsive {
-      height: 70px;
-      border-radius: 5px;
-      box-sizing: border-box; }
-    .header-reponsive .nav-responsive {
-      color: white; } }
+    display: none; } }
 
 /* cierre navbar y logo */
 /* inicio titulos y parrafo */

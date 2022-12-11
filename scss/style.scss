@@ -68,23 +68,6 @@ text-decoration: underline;
 		display:none;
 	}
 
-	.header-reponsive {
-		display: flex;
-		height: 70px;
-		padding: 10px 5px;
-		flex-wrap: wrap;
-		.logo-responsive {
-			height: 70px;
-			border-radius: 5px;
-			box-sizing: border-box;
-		}
-		.nav-responsive {
-			color:white;
-		}
-	}
-
- 
-
 }
 
 /* cierre navbar y logo */
