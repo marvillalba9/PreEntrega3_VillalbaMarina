@@ -25,7 +25,7 @@ body {
     justify-self: center;
     align-self: center; }
     .container-fluid .nav-item .navbar-brand {
-      height: 80px;
+      height: 80px !important;
       border-radius: 5px;
       box-sizing: border-box; }
 
