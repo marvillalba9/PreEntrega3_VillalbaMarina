@@ -85,7 +85,8 @@ body {
   display: flex;
   color: purple;
   align-items: center;
-  padding: 0px; }
+  padding: 10px;
+  margin: 0px; }
   @media screen and (max-width: 768px) {
     .titulo-h2 {
       display: inline-block;

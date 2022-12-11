@@ -134,7 +134,8 @@ body {
 	display:flex;
 	color: $title-color;
 	align-items: center;
-	padding: 0px;
+	padding: $padding-titles;
+	margin: 0px;
 
 	@media screen and (max-width: 768px) {
 		@include displaytitulos;
