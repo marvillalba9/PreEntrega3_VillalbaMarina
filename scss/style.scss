@@ -322,18 +322,27 @@ p {
 		}
 	}
 }
-
-
 /* cierre cupcakes */
 
 /* inicio recetas */
 .recetas {
-display:grid;
-grid-template-columns: 700px;
-grid-template-rows: repeat (5, 350px);
-grid-row-gap: 10px;
-padding: 15px;
-width: 65%;
+	display:grid;
+	grid-template-columns: 700px;
+	grid-template-rows: repeat (5, 350px);
+	grid-row-gap: 10px;
+	padding: 10px;
+	width: 65%;
+}
+
+@media screen and (max-width: 768px) {
+	.recetas {
+		display:grid;
+		grid-template-columns: 90%;
+		grid-template-rows: repeat (5, 250px);
+		grid-row-gap: 5px;
+		padding: 15px;
+		width: 100%;
+	}
 }
 /* cierre recetas */
 
