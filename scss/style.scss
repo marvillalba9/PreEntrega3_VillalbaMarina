@@ -328,7 +328,7 @@ p {
 .recetas {
 	display:grid;
 	grid-template-columns: 700px;
-	grid-template-rows: repeat (5, 320px);
+	grid-template-rows: 320px 320px 320px 320px 320px;
 	grid-row-gap: 5px;
 	.videos {
 		margin: 0px;
