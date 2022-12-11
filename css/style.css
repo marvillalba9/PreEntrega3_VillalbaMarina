@@ -9,7 +9,7 @@ body {
   padding: 0; }
   @media screen and (max-width: 768px) {
     body {
-      background-color: #ffcdd2;
+      background-color: #ffcdd2 !important;
       background-image: none; } }
 
 /* cierre body */
