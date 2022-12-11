@@ -94,9 +94,11 @@ body {
 	color: $title-color;
 	
 	@media screen and (max-width: 768px) {
+		display: inline-block;
 		font-size: 40px;
 		padding: 5px;
-		justify-items: center;
+		width: 100%;
+		text-align: center;
 	}
 }
 

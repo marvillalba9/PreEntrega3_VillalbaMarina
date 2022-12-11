@@ -62,9 +62,11 @@ body {
   color: purple; }
   @media screen and (max-width: 768px) {
     .titulo_h1 {
+      display: inline-block;
       font-size: 40px;
       padding: 5px;
-      justify-items: center; } }
+      width: 100%;
+      text-align: center; } }
 
 .titulo_h2 {
   display: flex;
