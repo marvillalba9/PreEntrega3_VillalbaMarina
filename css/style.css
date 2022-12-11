@@ -255,7 +255,7 @@ p {
   width: 65%; }
 
 @media screen and (max-width: 768px) {
-  .recetas {
+  .recetas .links_recetas {
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: repeat 5, 200px;
