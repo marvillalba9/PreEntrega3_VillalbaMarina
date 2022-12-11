@@ -33,6 +33,9 @@ body {
 	padding: 20px 10px;
 	grid-template-rows: 100px;
 	grid-template-columns: 150px 150px 150px 150px 150px 150px;
+	i {
+		display:none;
+	}
 }
 
  .logoppal {
@@ -58,6 +61,31 @@ font-weight: 800;
 a:hover {
 text-decoration: underline;
 }
+
+@media screen and (max-width:768px) {
+	.logoppal {
+		height: 70px;
+		border-radius: 5px;
+		box-sizing: border-box;
+	}
+
+	.header-container {
+		display: grid;
+		padding: 10px 5px;
+		grid-template-columns: 120px 40px 40px 40px 40px 40px;
+		a {
+			display:none;
+		}
+		i {
+			color:white;
+			width: 40px;
+		}
+	}
+
+ 
+
+}
+
 /* cierre navbar y logo */
 
 /* inicio titulos y parrafo */
