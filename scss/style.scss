@@ -83,6 +83,15 @@ body {
 		display: flex;
 		justify-content: center;
 	}
+
+	.header-nav {
+		.nav-desktop {
+			display: none;
+		}
+		.nav-mobile {
+			height: 70px;
+		}
+	}
 }
 /* cierre navbar y logo */
 

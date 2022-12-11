@@ -41,7 +41,11 @@ body {
 @media screen and (max-width: 768px) {
   .logoppal {
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  .header-nav .nav-desktop {
+    display: none; }
+  .header-nav .nav-mobile {
+    height: 70px; } }
 
 /* cierre navbar y logo */
 /* inicio titulos y parrafo */
