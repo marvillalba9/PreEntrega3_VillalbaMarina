@@ -38,33 +38,30 @@ body {
 	padding: 20px 10px;
 	grid-template-rows: 100px;
 	grid-template-columns: 150px 150px 150px 150px 150px 150px;
-}
-
-.logoppal {
-	height: 80px;
-	border-radius: 5px;
-	box-sizing: border-box;
-}
-
-.header-nav {
-    margin:20px;
-    padding: 0px;
-    justify-self: center;
-    align-self: center;
-	.nav-mobile {
-		display:none;
+	.header-nav {
+    	margin:20px;
+    	padding: 0px;
+    	justify-self: center;
+    	align-self: center;
+		.nav-mobile {
+			display:none;
+		}
+		.logoppal {
+			height: 80px;
+			border-radius: 5px;
+			box-sizing: border-box;
+		}
+		a {
+			text-decoration: none;
+			color: $primary-color;
+			font-size: $navbar-font-size;
+			font-weight: 800;
+			}
+			
+			a:hover {
+			text-decoration: underline;
+			}
 	}
-}
-
-a {
-text-decoration: none;
-color: $primary-color;
-font-size: $navbar-font-size;
-font-weight: 800;
-}
-
-a:hover {
-text-decoration: underline;
 }
 /* cierre navbar y logo */
 

@@ -17,28 +17,24 @@ body {
   padding: 20px 10px;
   grid-template-rows: 100px;
   grid-template-columns: 150px 150px 150px 150px 150px 150px; }
-
-.logoppal {
-  height: 80px;
-  border-radius: 5px;
-  box-sizing: border-box; }
-
-.header-nav {
-  margin: 20px;
-  padding: 0px;
-  justify-self: center;
-  align-self: center; }
-  .header-nav .nav-mobile {
-    display: none; }
-
-a {
-  text-decoration: none;
-  color: rebeccapurple;
-  font-size: 20px;
-  font-weight: 800; }
-
-a:hover {
-  text-decoration: underline; }
+  .header-container .header-nav {
+    margin: 20px;
+    padding: 0px;
+    justify-self: center;
+    align-self: center; }
+    .header-container .header-nav .nav-mobile {
+      display: none; }
+    .header-container .header-nav .logoppal {
+      height: 80px;
+      border-radius: 5px;
+      box-sizing: border-box; }
+    .header-container .header-nav a {
+      text-decoration: none;
+      color: rebeccapurple;
+      font-size: 20px;
+      font-weight: 800; }
+    .header-container .header-nav a:hover {
+      text-decoration: underline; }
 
 /* cierre navbar y logo */
 /* inicio titulos y parrafo */
