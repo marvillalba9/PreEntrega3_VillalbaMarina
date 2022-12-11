@@ -153,15 +153,16 @@ p {
 /* cierre footer*/
 
 /* inicio index */
-.imgindex {
-	@include displayindex;
-	object-fit: cover;
-	transition: width 2s, height 2s;
-}
-
-.imgindex:hover {
-	width: 275px;
-	height: 275px;
+.images-desktop {
+	.imgindex {
+		@include displayindex;
+		object-fit: cover;
+		transition: width 2s, height 2s;
+	}
+	.imgindex:hover {
+		width: 275px;
+		height: 275px;
+	}
 }
 
 .infoindex {
@@ -170,6 +171,16 @@ p {
 		justify-content: center;
 		align-content: center;
 	}
+}
+
+@media screen and (min-width: 768px) {
+	.carousel slide {
+		display:none;
+	}
+}
+
+.d-block w-100 {
+	@include displayindex;
 }
 /* cierre index */
 

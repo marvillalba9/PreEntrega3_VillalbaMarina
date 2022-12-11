@@ -111,7 +111,7 @@ p {
 
 /* cierre footer*/
 /* inicio index */
-.imgindex {
+.images-desktop .imgindex {
   display: inline-block;
   width: 200px;
   height: 200px;
@@ -120,7 +120,7 @@ p {
   object-fit: cover;
   transition: width 2s, height 2s; }
 
-.imgindex:hover {
+.images-desktop .imgindex:hover {
   width: 275px;
   height: 275px; }
 
@@ -132,6 +132,17 @@ p {
     padding: 5px;
     justify-content: center;
     align-content: center; } }
+
+@media screen and (min-width: 768px) {
+  .carousel slide {
+    display: none; } }
+
+.d-block w-100 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px; }
 
 /* cierre index */
 /* inicio tortas */
