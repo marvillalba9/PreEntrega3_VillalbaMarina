@@ -107,6 +107,7 @@ body {
 	align-items: center;
 	
 	@media screen and (max-width: 768px) {
+		display: none;
 		padding: 5px;
 		justify-items: center;
 		margin:0px;

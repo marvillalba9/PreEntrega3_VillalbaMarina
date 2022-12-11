@@ -73,6 +73,7 @@ body {
   align-items: center; }
   @media screen and (max-width: 768px) {
     .titulo_h2 {
+      display: none;
       padding: 5px;
       justify-items: center;
       margin: 0px; } }
