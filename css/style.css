@@ -14,9 +14,11 @@
       justify-self: left;
       align-self: left; }
       .header-container .header-nav .logoppal {
-        height: 60px;
+        height: 80px;
         border-radius: 5px;
-        box-sizing: border-box; }
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center; }
   a {
     text-decoration: none;
     color: rebeccapurple;
