@@ -56,7 +56,7 @@ body {
     	align-self: center;
 		.nav-link {
 			color: $primary-color;
-			font-size: large;
+			font-size: 55px;
 			font-weight: 900;
 		}
 	}
@@ -69,32 +69,7 @@ body {
 	}
 }
 
-/*
-@media screen and (max-width: 768px) {
-	.header-container {
-		width: 100%;
-	}
-	
-	.logoppal {
-		display: flex;
-		justify-content: center;
-	}
-
-	.header-nav {
-		margin:20px;
-    	padding: 0px;
-    	justify-self: center;
-    	align-self: center;
-		.nav-desktop {
-			display: none;
-		}
-		.nav-mobile {
-			display: block;
-			height: 70px;
-		}
-	}
-}
-cierre navbar y logo */
+/* cierre navbar y logo */
 
 /* inicio titulos y parrafo */
 .titulos {
