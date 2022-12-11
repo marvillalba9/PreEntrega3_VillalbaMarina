@@ -6,6 +6,10 @@ body {
   background-size: cover;
   position: relative;
   padding: 0; }
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: #efb9e7;
+      background-image: none; } }
 
 /* inicio navbar y logo */
 .header-container {
