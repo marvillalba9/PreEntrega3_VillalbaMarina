@@ -329,8 +329,8 @@ p {
 	display:grid;
 	grid-template-columns: 700px;
 	grid-template-rows: repeat (5, 320px);
-	grid-row-gap: 10px;
-	padding: 10px;
+	grid-row-gap: 5px;
+	padding: 5px;
 }
 
 @media screen and (max-width: 768px) {
