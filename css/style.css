@@ -37,7 +37,7 @@ a:hover {
   text-decoration: underline; }
 
 @media screen and (max-width: 768px) {
-  .logoppal {
+  .logo-respopnsive {
     height: 70px;
     border-radius: 5px;
     box-sizing: border-box; }
