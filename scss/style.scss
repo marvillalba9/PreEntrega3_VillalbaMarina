@@ -179,11 +179,6 @@ p {
 		justify-content: center;
 		align-content: center;
 	}
-	.d-block w-100 {
-		width: 80%;
-		height: auto;
-	}
-
 }
 /* cierre index */
 
@@ -195,32 +190,32 @@ p {
 	grid-template-rows: repeat (4, 200px);
 	grid-row-gap: 5px;
 	grid-column-gap: 10px;
-}
-
-.img-tortas {
-	height: $image-height;
-	width: $image-width;
-	object-fit: cover;
-	align-self: center;
-	border-radius: 15%;
-	transition-property: background, border-radius;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-}
-
-.img-tortas:hover {
-   border-radius: 50%;
-}
-
-.info-tortas {
-	display: grid;
-	grid-template-columns: 120px 260px;
-	grid-template-rows: 150px;
-	grid-column-gap: 6px;
-	align-self: center;
-
-	span {
+	.info-tortas {
+		display: grid;
+		grid-template-columns: 120px 260px;
+		grid-template-rows: 150px;
+		grid-column-gap: 6px;
 		align-self: center;
+	
+		span {
+			align-self: center;
+			font-size: 20px;
+		}
+
+		.img-tortas {
+			height: $image-height;
+			width: $image-width;
+			object-fit: cover;
+			align-self: center;
+			border-radius: 15%;
+			transition-property: background, border-radius;
+			transition-duration: 1s;
+			transition-timing-function: linear;
+		}
+		
+		.img-tortas:hover {
+		   border-radius: 50%;
+		}
 	}
 }
 /* cierre tortas */
