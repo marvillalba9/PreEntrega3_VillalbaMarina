@@ -18,6 +18,10 @@ body {
   height: 80px;
   border-radius: 5px;
   box-sizing: border-box; }
+  @media screen and (max-width: 768px) {
+    .logoppal {
+      height: 60px;
+      margin: 5px; } }
 
 .header-nav {
   margin: 20px;
@@ -35,17 +39,6 @@ a {
 
 a:hover {
   text-decoration: underline; }
-
-@media screen and (max-width: 768px) {
-  .logoppal {
-    height: 70px;
-    border-radius: 5px;
-    box-sizing: border-box; }
-  .header-nav a .nav-mobile {
-    height: 70px;
-    width: 70px; }
-  .header-nav a .nav-desktop {
-    display: none; } }
 
 /* cierre navbar y logo */
 /* inicio titulos y parrafo */
