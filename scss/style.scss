@@ -23,6 +23,12 @@ $image-width: 120px;
 	padding: 5px;
 }
 
+@mixin displayproductos {
+	display: inline-block;
+	width: 100%;
+}
+
+/* inicio body */
 * {
 	font-family: $font-family;
 }
@@ -38,6 +44,7 @@ body {
 		background-image: none;
 	}
 }
+/* cierre body */
 
 /* inicio navbar y logo */
 .header-container {
@@ -76,6 +83,9 @@ body {
 		display:grid;
 		padding: 5px;
 		grid-template-columns: 70px 70px 70px 70px 70px 70px 70px;
+		.grid-item:first-child {
+			grid-column: 1/8;
+		}
 	}
 }
 /* cierre navbar y logo */
