@@ -360,47 +360,7 @@ iframe {
 
 #formInput {
 	margin-left: 10px !important;
-	width: 80% !important;
-}
-
-
-.contact_form {
-	.detalle-form {
-		margin-left: 10px;
-		@include contactform;
-	}
-
-	.formulario {
-		background-color: $form-color;
-		border: none;
-	}
-
-	.formulario2 {
-		background-color: $form-color;
-		margin: 8px 10px;
-		@include contactform;
-	}
-}
-
-.buttons{
-	display:flex;
-	width: 500px;
-	justify-content: end;
-
-	.formulario3 {
-		font-size: 18px;
-	}
-}
-
-input[type=submit], input[type=reset] {
-	background-color: rgb(147, 125, 169);
-	border: none;
-	border-radius: 4px;
-	color: white;
-	padding: 10px 10px;
-	text-decoration: none;
-	margin: 4px 10px;
-	cursor: pointer;
+	width: 65% !important;
 }
 
 /* cierre contacto */
