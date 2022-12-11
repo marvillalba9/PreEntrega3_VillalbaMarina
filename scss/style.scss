@@ -376,6 +376,10 @@ iframe {
 	}
 }
 
+.formulario:focus {
+	outline: 3px, solid, $primary-color;
+}
+
 .buttons{
 	display:flex;
 	width: 500px;
