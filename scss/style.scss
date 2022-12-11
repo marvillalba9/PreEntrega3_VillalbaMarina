@@ -376,10 +376,6 @@ iframe {
 	}
 }
 
-.input:focus {
-	border: 3px, solid, $primary-color !important;
-}
-
 .buttons{
 	display:flex;
 	width: 500px;
@@ -401,6 +397,50 @@ input[type=submit], input[type=reset] {
 	cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+	.contact_form {
+		.detalle-form {
+			display:inline-block;
+			width: 80%;
+			padding: 6px 10px;
+			margin: 8px 10px;
+			box-sizing: border-box;
+			border:none;
+			border-radius: 4px;
+		}
+	
+		.formulario {
+			background-color: $form-color;
+			border: none;
+		}
+	
+		.formulario2 {
+			background-color: $form-color;
+			@include contactform;
+		}
+	}
+	
+	.buttons{
+		display:flex;
+		width: 500px;
+		justify-content: end;
+	
+		.formulario3 {
+			font-size: 18px;
+		}
+	}
+	
+	input[type=submit], input[type=reset] {
+		background-color: rgb(147, 125, 169);
+		border: none;
+		border-radius: 4px;
+		color: white;
+		padding: 10px 10px;
+		text-decoration: none;
+		margin: 4px 10px;
+		cursor: pointer;
+	}
+}
 
 /* cierre contacto */
 
