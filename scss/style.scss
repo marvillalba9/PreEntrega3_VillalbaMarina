@@ -365,21 +365,16 @@ iframe {
 
 	.formulario {
 		background-color:white;
-
-	}
-
-	.formulario:focus {
-		border: 3px solid $primary-color;
+		focus: 3px solid $primary-color;
 	}
 
 	.formulario2 {
 		background-color:white;
 		margin: 8px 10px;
 		@include contactform;
-	}
-
-	.formulario2:focus {
+		.formulario2:focus {
 		border: 3px solid $primary-color;
+		}
 	}
 }
 
