@@ -32,7 +32,7 @@ body {
 	display: grid;
 	padding: 20px 10px;
 	grid-template-rows: 100px;
-	grid-template-columns: repeat (6, 150px);
+	grid-template-columns: 150px 150px 150px 150px 150px 150px;
 }
 
 .logoppal {
@@ -61,7 +61,6 @@ font-weight: 800;
 a:hover {
 text-decoration: underline;
 }
-
 /* cierre navbar y logo */
 
 /* inicio titulos y parrafo */
