@@ -52,12 +52,15 @@ body {
 	padding: 20px 10px;
 	grid-template-rows: 100px;
 	grid-template-columns: 150px 150px 150px 150px 150px 150px;
+	background-color: transparent;
 	.nav-item {
     	margin:20px;
     	padding: 0px;
     	justify-self: center;
     	align-self: center;
-		.navbar-brand {
+	}
+	.navbar-brand {
+		.logoppal {
 			height: 80px;
 			border-radius: 5px;
 			box-sizing: border-box;
