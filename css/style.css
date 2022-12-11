@@ -101,7 +101,7 @@ body {
   font-size: 30px;
   padding: 10px;
   margin: 10px 0px 0px 0px;
-  text-decoration: solid; }
+  text-decoration: solid !important; }
 
 p {
   width: 750px;
