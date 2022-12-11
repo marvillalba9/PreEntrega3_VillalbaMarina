@@ -331,8 +331,10 @@ p {
 	grid-template-rows: 320px 320px 320px 320px 320px;
 	grid-row-gap: 5px;
 	.videos {
+		.links-recetas {
 		margin: 0px;
 		padding: 0px;
+		}
 	}
 }
 
