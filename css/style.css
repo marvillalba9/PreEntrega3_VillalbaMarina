@@ -74,7 +74,7 @@ body {
     .titulo_h2 {
       font-size: 30px;
       padding: 5px;
-      justify-items: center;
+      text-align: center;
       margin: 0px; } }
 
 .subtitulo {
