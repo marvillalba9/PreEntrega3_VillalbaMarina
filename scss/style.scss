@@ -300,6 +300,7 @@ p {
 		grid-template-rows: 150px;
 		grid-column-gap: 6px;
 		align-self: center;
+		align-content: center;
 	
 		span {
 			@include spanmobileproductos;
