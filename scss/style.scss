@@ -330,7 +330,10 @@ p {
 	grid-template-columns: 700px;
 	grid-template-rows: repeat (5, 320px);
 	grid-row-gap: 5px;
-	padding: 5px;
+	.videos {
+		margin: 0px;
+		padding: 0px;
+	}
 }
 
 @media screen and (max-width: 768px) {
