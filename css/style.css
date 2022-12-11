@@ -45,6 +45,7 @@ body {
   .header-nav .nav-desktop {
     display: none; }
   .header-nav .nav-mobile {
+    display: block;
     height: 70px; } }
 
 /* cierre navbar y logo */
