@@ -164,6 +164,14 @@ p {
 	width: 275px;
 	height: 275px;
 }
+
+.infoindex {
+	@media screen and (max-width: 768px) {
+		@include displaytitulos;
+		justify-content: center;
+		align-content: center;
+	}
+}
 /* cierre index */
 
 /* inicio tortas */
