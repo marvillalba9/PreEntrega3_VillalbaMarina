@@ -37,16 +37,17 @@ a:hover {
   text-decoration: underline; }
 
 @media screen and (max-width: 768px) {
-  .logo-responsive {
-    height: 70px;
-    border-radius: 5px;
-    box-sizing: border-box; }
   .header-container {
     display: flex;
+    height: 70px;
     padding: 10px 5px;
     flex-wrap: wrap; }
     .header-container .header-nav {
-      display: none; } }
+      display: none; }
+    .header-container .logo-responsive {
+      height: 70px;
+      border-radius: 5px;
+      box-sizing: border-box; } }
 
 /* cierre navbar y logo */
 /* inicio titulos y parrafo */

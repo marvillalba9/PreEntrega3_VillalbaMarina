@@ -63,18 +63,18 @@ text-decoration: underline;
 }
 
 @media screen and (max-width:768px) {
-	.logo-responsive {
-		height: 70px;
-		border-radius: 5px;
-		box-sizing: border-box;
-	}
-
 	.header-container {
 		display: flex;
+		height: 70px;
 		padding: 10px 5px;
 		flex-wrap: wrap;
 		.header-nav {
 			display:none;
+		}
+		.logo-responsive {
+			height: 70px;
+			border-radius: 5px;
+			box-sizing: border-box;
 		}
 	}
 
