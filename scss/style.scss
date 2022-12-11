@@ -46,38 +46,26 @@ body {
 }
 /* cierre body */
 
-/* inicio navbar y logo
-.header-container {
+/* inicio navbar y logo */
+.container-fluid {
 	display: grid;
 	padding: 20px 10px;
 	grid-template-rows: 100px;
 	grid-template-columns: 150px 150px 150px 150px 150px 150px;
-	.header-nav {
+	.nav-item {
     	margin:20px;
     	padding: 0px;
     	justify-self: center;
     	align-self: center;
-		.nav-mobile {
-			display:none;
-		}
-		.logoppal {
+		.navbar-brand {
 			height: 80px;
 			border-radius: 5px;
 			box-sizing: border-box;
 		}
-		a {
-			text-decoration: none;
-			color: $primary-color;
-			font-size: $navbar-font-size;
-			font-weight: 800;
-			}
-			
-			a:hover {
-			text-decoration: underline;
-			}
 	}
 }
 
+/*
 @media screen and (max-width: 768px) {
 	.header-container {
 		width: 100%;

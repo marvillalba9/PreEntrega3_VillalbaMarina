@@ -13,38 +13,23 @@ body {
       background-image: none; } }
 
 /* cierre body */
-/* inicio navbar y logo
-.header-container {
-	display: grid;
-	padding: 20px 10px;
-	grid-template-rows: 100px;
-	grid-template-columns: 150px 150px 150px 150px 150px 150px;
-	.header-nav {
-    	margin:20px;
-    	padding: 0px;
-    	justify-self: center;
-    	align-self: center;
-		.nav-mobile {
-			display:none;
-		}
-		.logoppal {
-			height: 80px;
-			border-radius: 5px;
-			box-sizing: border-box;
-		}
-		a {
-			text-decoration: none;
-			color: $primary-color;
-			font-size: $navbar-font-size;
-			font-weight: 800;
-			}
-			
-			a:hover {
-			text-decoration: underline;
-			}
-	}
-}
+/* inicio navbar y logo */
+.container-fluid {
+  display: grid;
+  padding: 20px 10px;
+  grid-template-rows: 100px;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px; }
+  .container-fluid .nav-item {
+    margin: 20px;
+    padding: 0px;
+    justify-self: center;
+    align-self: center; }
+    .container-fluid .nav-item .navbar-brand {
+      height: 80px;
+      border-radius: 5px;
+      box-sizing: border-box; }
 
+/*
 @media screen and (max-width: 768px) {
 	.header-container {
 		width: 100%;
