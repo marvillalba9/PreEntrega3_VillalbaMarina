@@ -354,6 +354,7 @@ p {
 		display: flex;
 		padding: 8px;
 		justify-content: center;
+		flex-direction: column;
 		.videos {
 			width: 95%;	
 			height: auto;

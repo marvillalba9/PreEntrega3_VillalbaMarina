@@ -259,7 +259,8 @@ p {
   .recetas {
     display: flex;
     padding: 8px;
-    justify-content: center; }
+    justify-content: center;
+    flex-direction: column; }
     .recetas .videos {
       width: 95%;
       height: auto; }
