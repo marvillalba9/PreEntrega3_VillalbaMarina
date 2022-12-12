@@ -295,7 +295,7 @@ p {
 @media screen and (max-width: 768px) {
   .lista_c {
     display: flex;
-    justify-content: center;
+    justify-items: center;
     flex-direction: column;
     width: 100%; } }
 
