@@ -353,7 +353,7 @@ p {
 	.recetas {
 		display:grid;
 		grid-template-columns: 350px;
-		grid-template-rows: repeat (5, 85px);
+		grid-template-rows: 85px 85px 85px 85px 85px;
 		grid-row-gap: 5px;
 		padding: 10px;
 		.videos {
