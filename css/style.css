@@ -267,7 +267,8 @@ p {
   padding: 0px; }
   .lista_contacto .datos_contacto {
     color: rebeccapurple;
-    font-size: large; }
+    font-size: large;
+    font-weight: 500; }
 
 #formInput {
   margin-left: 10px;
