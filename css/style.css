@@ -263,11 +263,11 @@ p {
     flex-direction: column; }
     .recetas .videos {
       width: 95%;
-      height: auto; }
+      height: auto;
+      justify-items: center; }
       .recetas .videos iframe {
         width: 90vw;
-        height: auto;
-        align-items: center; } }
+        height: auto; } }
 
 /* cierre recetas */
 /* inicio contacto */
