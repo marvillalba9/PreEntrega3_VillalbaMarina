@@ -262,10 +262,11 @@ p {
 /* cierre recetas */
 /* inicio contacto */
 .lista_contacto {
-  list-style: none; }
+  list-style: none;
+  margin-left: 15px; }
   .lista_contacto .datos_contacto {
     color: white;
-    font-size: medium; }
+    font-size: large; }
 
 #formInput {
   margin-left: 10px;
