@@ -385,5 +385,17 @@ input[type=submit], input[type=reset] {
 	justify-content: center;
 }
 
+@media screen and (max-width) {
+	iframe {
+		width: 300px;
+		margin: 20px 10px;
+	}
+
+	input[type=submit], input[type=reset] {
+		padding: 0px;
+		margin: 2px 8px;
+	}
+}
+
 /* cierre contacto */
 
