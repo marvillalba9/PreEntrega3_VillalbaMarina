@@ -359,7 +359,7 @@ p {
 	margin-left: 15px;
 	padding: 0px;
 	.datos_contacto {
-		color: white;
+		color: $primary-color;
 		font-size: large;
 		font-weight: 700;
 	}
@@ -388,6 +388,13 @@ p {
 		text-decoration: none;
 		margin: 4px 10px;
 		cursor: pointer;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.lista_contacto {
+		display:flex;
+		justify-content: center;
 	}
 }
 /* cierre contacto */
