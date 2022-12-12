@@ -293,7 +293,7 @@ iframe {
   .buttons {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-evenly;
     margin: 10px; }
     .buttons input[type=submit], .buttons input[type=reset] {
       padding: 0px;
