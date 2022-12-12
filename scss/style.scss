@@ -351,7 +351,7 @@ p {
 
 @media screen and (max-width: 768px) {
 	.recetas {
-		display:inline-block;
+		display: flex;
 		padding: 8px;
 		justify-content: center;
 		.videos {
