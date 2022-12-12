@@ -399,7 +399,8 @@ input[type=submit], input[type=reset] {
 	.buttons{
 		display:flex;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: left;
+		margin: 10px;
 	}
 }
 
