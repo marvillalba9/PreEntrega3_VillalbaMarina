@@ -263,7 +263,7 @@ p {
 /* inicio contacto */
 .lista_contacto {
   list-style: none;
-  margin-left: 15px;
+  margin-left: 20px;
   padding: 0px; }
   .lista_contacto .datos_contacto {
     color: rebeccapurple;
