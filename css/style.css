@@ -256,11 +256,17 @@ p {
     width: 50vw; }
 
 @media screen and (max-width: 768px) {
-  .videos {
-    width: 95%; }
-    .videos iframe {
-      width: 90vw;
-      align-items: center; } }
+  .recetas {
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: repeat 5, 150px;
+    grid-row-gap: 5px;
+    padding: 10px; }
+    .recetas .videos {
+      width: 95%; }
+      .recetas .videos iframe {
+        width: 90vw;
+        align-items: center; } }
 
 /* cierre recetas */
 /* inicio contacto */
