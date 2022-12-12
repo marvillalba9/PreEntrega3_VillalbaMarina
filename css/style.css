@@ -260,11 +260,12 @@ p {
     display: flex;
     padding: 8px;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    text-align: center;
+    align-content: center; }
     .recetas .videos {
       width: 95%;
-      height: auto;
-      justify-items: center; }
+      height: auto; }
       .recetas .videos iframe {
         width: 90vw;
         height: auto; } }
