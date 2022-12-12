@@ -393,10 +393,10 @@ p {
 
 @media screen and (max-width: 768px) {
 	.lista_c {
-		display:flex;
-		justify-items: center;
-		flex-direction: column;
+		display:grid;
 		width: 100%;
+		grid-template-rows: 20px 20px;
+		justify-content: center;
 	}
 }
 /* cierre contacto */
