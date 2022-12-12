@@ -272,11 +272,11 @@ iframe {
   margin-left: 10px;
   font-weight: 300; }
 
-.btn {
+.btn btn-primary {
   display: flex;
   width: 60%;
   justify-content: center; }
-  .btn input[type=submit], .btn input[type=reset] {
+  .btn btn-primary input[type=submit], .btn btn-primary input[type=reset] {
     background-color: #937da9;
     border: none;
     border-radius: 4px;
@@ -290,12 +290,12 @@ iframe {
   iframe {
     width: 300px;
     margin: 20px 10px; }
-  .btn {
+  .btn btn-primary {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 10px; }
-    .btn input[type=submit], .btn input[type=reset] {
+    .btn btn-primary input[type=submit], .btn btn-primary input[type=reset] {
       padding: 0px;
       margin: 2px 8px; } }
 
