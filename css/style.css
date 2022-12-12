@@ -262,8 +262,7 @@ p {
 /* cierre recetas */
 /* inicio contacto */
 iframe {
-  width: 560px;
-  height: 315px;
+  width: 370px;
   margin: 20px 10px; }
 
 #formInput {
@@ -287,10 +286,5 @@ iframe {
     text-decoration: none;
     margin: 4px 10px;
     cursor: pointer; }
-
-@media screen and (max-width) {
-  iframe {
-    width: 300px;
-    margin: 20px 10px; } }
 
 /* cierre contacto */
