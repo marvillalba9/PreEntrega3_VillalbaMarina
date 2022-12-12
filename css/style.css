@@ -262,6 +262,8 @@ p {
 /* cierre recetas */
 /* inicio contacto */
 iframe {
+  width: 560px;
+  height: 315px;
   margin: 20px 10px; }
 
 #formInput {
