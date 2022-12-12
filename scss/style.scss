@@ -395,6 +395,12 @@ input[type=submit], input[type=reset] {
 		padding: 0px;
 		margin: 2px 8px;
 	}
+
+	.buttons{
+		display:flex;
+		flex-direction: row;
+		justify-content: center;
+	}
 }
 
 /* cierre contacto */
