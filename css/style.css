@@ -258,7 +258,8 @@ p {
 @media screen and (max-width: 768px) {
   .recetas {
     display: inline-block;
-    padding: 8px; }
+    padding: 8px;
+    align-self: center; }
     .recetas .videos {
       width: 95%;
       height: auto; }
