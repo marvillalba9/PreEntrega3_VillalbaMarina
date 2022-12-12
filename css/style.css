@@ -261,8 +261,7 @@ p {
     padding: 8px;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
-    align-content: center; }
+    text-align: center; }
     .recetas .videos {
       width: 95%;
       height: auto; }
