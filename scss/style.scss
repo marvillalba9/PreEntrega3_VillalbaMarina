@@ -351,10 +351,8 @@ p {
 
 @media screen and (max-width: 768px) {
 	.recetas {
-		display:grid;
-		grid-template-columns: 350px;
-		padding: 10px;
-		justify-content: center;
+		display:inline-block;
+		margin: 10px;
 		.videos {
 			width: 95%;	
 			height: auto;
