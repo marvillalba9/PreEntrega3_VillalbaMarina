@@ -263,7 +263,8 @@ p {
 /* inicio contacto */
 .lista_contacto {
   list-style: none;
-  margin-left: 15px; }
+  margin-left: 15px;
+  padding: 0px; }
   .lista_contacto .datos_contacto {
     color: white;
     font-size: large; }
