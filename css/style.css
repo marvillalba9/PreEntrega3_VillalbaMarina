@@ -256,9 +256,11 @@ p {
     width: 50vw; }
 
 @media screen and (max-width: 768px) {
-  iframe {
-    width: 90vw;
-    align-items: center; } }
+  .videos {
+    width: 95%; }
+    .videos iframe {
+      width: 90vw;
+      align-items: center; } }
 
 /* cierre recetas */
 /* inicio contacto */
