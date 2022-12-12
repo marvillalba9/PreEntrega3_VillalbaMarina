@@ -368,21 +368,20 @@ iframe {
 	font-weight: 300;
 }
 
-input[type=submit], input[type=reset] {
-	background-color: rgb(147, 125, 169);
-	border: none;
-	border-radius: 4px;
-	color: white;
-	padding: 10px 10px;
-	text-decoration: none;
-	margin: 4px 10px;
-	cursor: pointer;
-  }
-
 .buttons{
 	display:flex;
 	width: 60%;
 	justify-content: center;
+	input[type=submit], input[type=reset] {
+		background-color: rgb(147, 125, 169);
+		border: none;
+		border-radius: 4px;
+		color: white;
+		padding: 10px 10px;
+		text-decoration: none;
+		margin: 4px 10px;
+		cursor: pointer;
+	  }
 }
 
 @media screen and (max-width) {
@@ -391,16 +390,15 @@ input[type=submit], input[type=reset] {
 		margin: 20px 10px;
 	}
 
-	input[type=submit], input[type=reset] {
-		padding: 0px;
-		margin: 2px 8px;
-	}
-
 	.buttons{
 		display:flex;
 		flex-direction: row;
 		justify-content: left;
 		margin: 10px;
+		input[type=submit], input[type=reset] {
+			padding: 0px;
+			margin: 2px 8px;
+		}
 	}
 }
 
