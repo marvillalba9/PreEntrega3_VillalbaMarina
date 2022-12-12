@@ -259,7 +259,7 @@ p {
   .recetas {
     display: grid;
     grid-template-columns: 350px;
-    grid-template-rows: 85px 85px 85px 85px 85px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
     grid-row-gap: 5px;
     padding: 10px; }
     .recetas .videos {
