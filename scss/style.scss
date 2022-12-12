@@ -354,6 +354,13 @@ p {
 /* cierre recetas */
 
 /* inicio contacto */
+.lista_contacto {
+	list-style: none;
+	.datos_contacto {
+		color: white;
+		font-size: medium;
+	}
+}
 
 #formInput {
 	margin-left: 10px;
