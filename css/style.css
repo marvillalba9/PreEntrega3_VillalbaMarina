@@ -295,6 +295,7 @@ p {
 @media screen and (max-width: 768px) {
   .lista_contacto {
     display: flex;
-    justify-content: center; } }
+    justify-content: center;
+    flex-direction: column; } }
 
 /* cierre contacto */

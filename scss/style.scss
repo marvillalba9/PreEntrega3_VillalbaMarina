@@ -395,6 +395,7 @@ p {
 	.lista_contacto {
 		display:flex;
 		justify-content: center;
+		flex-direction: column;
 	}
 }
 /* cierre contacto */
