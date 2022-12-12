@@ -350,9 +350,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-	.videos {
-		width: 250px !important;
-		height: 125px !important;
+	iframe {
+		width: 90vw;
+		align-items: center;
 	}
 }	
 /* cierre recetas */
