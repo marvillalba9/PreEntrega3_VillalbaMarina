@@ -272,11 +272,11 @@ iframe {
   margin-left: 10px;
   font-weight: 300; }
 
-.buttons {
+.btn {
   display: flex;
   width: 60%;
   justify-content: center; }
-  .buttons input[type=submit], .buttons input[type=reset] {
+  .btn input[type=submit], .btn input[type=reset] {
     background-color: #937da9;
     border: none;
     border-radius: 4px;
@@ -290,12 +290,12 @@ iframe {
   iframe {
     width: 300px;
     margin: 20px 10px; }
-  .buttons {
+  .btn {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 10px; }
-    .buttons input[type=submit], .buttons input[type=reset] {
+    .btn input[type=submit], .btn input[type=reset] {
       padding: 0px;
       margin: 2px 8px; } }
 
