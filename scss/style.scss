@@ -235,10 +235,21 @@ p {
 }
 /* cierre tortas */
 
-/* inicio cupcakes */
+
+/* cupcakes cards */
+.card-text {
+	p {
+		text-align: center;
+		overflow-wrap: break-word !important;
+	}
+}
+
+
+
+/* inicio cupcakes
 .cupcakes{
 	display:grid;
-	grid-template-columns: 120px 400px;
+	grid-template-columns: 1fr 2fr 1fr 2fr;
 	grid-column-gap: 10px;
 	margin: 20px 0px 10px 10px;
 
@@ -259,6 +270,12 @@ p {
 	  .img-cupcakes:hover {
 		border-radius: 50%;
 	}
+
+	.btn btn-outline-primary {
+		height: 14px;
+		font-size: 10px;
+		color: $primary-color;
+	} 
 }
 
 @media screen and (max-width: 768px) {
@@ -290,7 +307,7 @@ p {
 		}
 	}
 }
-/* cierre cupcakes */
+cierre cupcakes */
 
 /* inicio recetas */
 .recetas {
