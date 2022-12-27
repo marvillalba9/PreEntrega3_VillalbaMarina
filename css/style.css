@@ -121,15 +121,15 @@ p {
     display: none; }
   .images-desktop .imgindex {
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
     margin: 10px;
     object-fit: cover;
     transition: width 2s, height 2s; }
   .images-desktop .imgindex:hover {
-    width: 275px;
-    height: 275px; } }
+    width: 350px;
+    height: 350px; } }
 
 @media screen and (max-width: 768px) {
   .images-desktop {
@@ -220,7 +220,6 @@ p {
     .lista_c .datos_contacto {
       justify-content: center; }
   .formulario {
-    margin-top: 70px;
-    align-items: center; } }
+    margin-top: 70px; } }
 
 /* cierre contacto */
