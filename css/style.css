@@ -121,8 +121,8 @@ p {
     display: none; }
   .images-desktop .imgindex {
     display: inline-block;
-    width: 300px;
-    height: 300px;
+    width: 290px;
+    height: 290px;
     padding: 10px;
     margin: 10px;
     object-fit: cover;
